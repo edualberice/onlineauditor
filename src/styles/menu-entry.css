@@ -1,0 +1,12 @@
+.menu-entry {
+	text-align: left;
+	margin: 0px 50px 30px 50px;
+	margin-bottom: 30px;
+	padding: 0px 0px 20px 20px;
+	background: #EDEDED;
+}
+
+.menu-entry
+.menu-button {
+	margin-right: 8px;
+}
