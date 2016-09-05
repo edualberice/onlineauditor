@@ -14,15 +14,27 @@ let user = {
 
 class Auditor extends Component {
   render() {
-    return (
-    	<div>
+  	console.log(this.props.children);
+  	if(this.props.children) {
+  	return (
+	   	<div>
 	      <SiteHeader title={'Online Auditor'} />
 	      <div>
-	      	<MenuEntry menuData={inventory} />
-	      	<MenuEntry menuData={user} />
+	      	{this.props.children}
 	      </div>
 	    </div>
-    );
+	  );
+	} else {
+		return (
+	    	<div>
+		      <SiteHeader title={'Online Auditor'} />
+		      <div>
+		      	<MenuEntry menuData={inventory} />
+		      	<MenuEntry menuData={user} />
+		      </div>
+		    </div>
+	    );	
+	}    
   }
 }
 

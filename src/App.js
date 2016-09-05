@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Auditor />
+        <Auditor children={this.props.children} />
       </div>
     );
   }

@@ -1,0 +1,31 @@
+.auditory-item {
+	margin-top: 16px;
+	padding: 8px 16px;
+	margin-right: 50px;
+	background: #EDEDED;
+}
+
+.auditory-button {
+	float: right;
+	margin-top: -55px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.auditory-item
+.auditory-name {
+	font-size: 26px;
+}
+
+.auditory-item
+.auditory-info {
+	padding-top: 16px;
+	font-size: 18px;
+}
+
+.auditory-item
+.auditory-info 
+.auditory-data {
+	display: inline;
+	margin-right: 16px;
+}
